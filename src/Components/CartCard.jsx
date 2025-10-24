@@ -19,6 +19,7 @@ export default function CartCard({
          <p>{brand}</p>
     <p>${priceNumber.toFixed(2)}</p>
 
+ {/* Quantity controls inside the cart */}
     <QuantityCounter
          value={quantity}
           onIncrease={handleCartIncrease}
@@ -28,7 +29,7 @@ export default function CartCard({
         {/* total price for this item */}
     <p>Total: ${(priceNumber * quantity).toFixed(2)}</p>
 
-    {/* button to remove the item from cart */}
+    {/*  button to remove the item from cart */}
         <div className="CartListBtns">
           <button className="RemoveButton" onClick={handleRemoveFromCart}>
          Remove

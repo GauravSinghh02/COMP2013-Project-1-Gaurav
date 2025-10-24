@@ -1,4 +1,5 @@
 import CartCard from "./CartCard";
+// TO display all the products currently in the cart
 export default function CartContainer({
    cart,handleRemoveFromCart , handleCartIncrease , handleCartDecrease, handleEmptyCart, cartTotal,}) 
     {

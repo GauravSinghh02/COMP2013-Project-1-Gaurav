@@ -3,6 +3,7 @@ import cartFull from "../assets/cart-full.png";
 
 export default function NavBar({ cartCount }){
  return(
+// navigation bar at top to show user name and cart icon as per the cart state(empty ? full)
 
    <div className="NavBar">
     <div className="NavDiv NavUser">

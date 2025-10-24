@@ -1,3 +1,6 @@
+
+// Component to display + and - buttons with quantity value
+
 export default function QuantityCounter({
   value,
   onIncrease,
@@ -10,7 +13,7 @@ export default function QuantityCounter({
        <button className="QuantityBtn" onClick={()=>{ 
         if (value > min) onDecrease(); }} > - </button>
 
-    <p>{value}</p>  {/* Using span is better */}
+    <p>{value}</p>  {/* Using span is better here*/}
 
         {/* increase quantity button*/}
      <button className="QuantityBtn" onClick={onIncrease}> + </button>

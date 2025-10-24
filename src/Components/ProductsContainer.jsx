@@ -1,8 +1,8 @@
 import ProductCard from "./ProductCard";
 
+// Displays all available grocery products
 export default function ProductsContainer({
-
-   data, productCounters, handleProductIncrease ,handleProductDecrease,handleAddToCart, })  {
+  data, productCounters, handleProductIncrease ,handleProductDecrease,handleAddToCart, })  {
 
   return(
     <div className="ProductsContainer">

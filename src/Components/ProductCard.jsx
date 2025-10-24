@@ -1,6 +1,6 @@
 import QuantityCounter from "./QuantityCounter";
 
-// To show the single product card with image, price and add button
+// To show the single product card with image, price, brand, add button
 export default function ProductCard({
   id,
   productName,
@@ -20,6 +20,7 @@ export default function ProductCard({
      <h3>{productName}  </h3>
      <p> {brand} </p>  {/*using <span> is better here as per my online learning but not covered in class yet */}
 
+{/* Counter for adjusting product quantity before adding to cart  */}
    <div className="counter-container" >
      <QuantityCounter
         value={quantityCounter.quantity}
