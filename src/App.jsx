@@ -1,7 +1,15 @@
 import "./App.css";
+import GroceriesAppContainer from "./Components/GroceriesAppContainer";
 
-function App() {
-  return <>{/* Add your code here! */}</>;
+// Author: Gaurav
+// Project-1 => Grocery App
+
+export default function App(){
+  return (
+    <>
+    
+      <GroceriesAppContainer />
+
+    </>
+  );
 }
-
-export default App;
